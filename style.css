@@ -1,0 +1,252 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    position: fixed;
+    top: 0px;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    color: rgb(201, 187, 187);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+#logo {
+    color: rgb(252, 247, 247);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#backcover {
+    width: 100%;
+    height: 500px;
+    background-image: url(./images/high\ speed\ internet.webp);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+#message {
+    color: rgb(209, 156, 8);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 60px;
+
+}
+
+#covermessage {
+    color: white;
+    font-size: 20px;
+    margin-right: 40px;
+    font-weight: bold;
+}
+
+#logomessage {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(209, 156, 8);
+}
+
+#logopara {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 25px;
+}
+
+.container1 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#box1 {
+    width: 370px;
+    height: 200px;
+    background-image: url(./images/image1.jpg);
+    background-size: cover;
+}
+
+#box2 {
+    width: 370px;
+    height: 200px;
+    background-image: url(./images/image2.jpg);
+    background-size: cover;
+}
+
+#box3 {
+    width: 370px;
+    height: 200px;
+    background-image: url(./images/image3.jpg);
+    background-size: cover;
+}
+
+#box4 {
+    width: 370px;
+    height: 200px;
+    background-image: url(./images/image4.jpg);
+    background-size: cover;
+}
+
+#container2 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boxes {
+    text-align: center;
+}
+
+.container3 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+#content {
+    width: 400px;
+    height: 200px;
+}
+
+#first {
+    color: rgb(36, 44, 44);
+    display: inline-block;
+    font-size: 35px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+#second {
+    color: rgb(209, 156, 8);
+    display: inline-block;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#contentpara {
+    font-size: 17px;
+}
+
+#contenting {
+    width: 700px;
+    height: 400px;
+    background-image: url(./images/building.webp);
+    background-size: cover;
+}
+
+.container4 {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(209, 156, 8);
+}
+
+#whytech{
+    width: 500px;
+    height: 100px;
+    position: relative;
+    padding-top: 80px;
+    left: 240px;
+    padding-left: 300px ;
+}
+#high{
+    width: 600px;
+    height: 300px;
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    padding-top: 5px;
+    padding-left: 100px;
+    
+}
+#simple{
+    width: 600px;
+    height: 300px;
+    display: inline-block;
+    position: relative;
+    left: 130px;
+    margin-top: 0px;   
+    padding-top: 5px;
+    padding-left: 20px;
+}
+#third {
+    color: rgb(36, 44, 44);
+    font-size: 50px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+#fourth {
+    color: rgb(255, 252, 252);
+    font-size: 50px;
+    font-weight: bolder;
+    display: inline-block;
+}
+.tdata{
+    font-size: 30px;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.tcontent{
+    font-size: 15px;
+    color: rgb(216, 197, 197);
+}
+.fstyle{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(39, 32, 32);
+}
+#flogo{
+    color: rgb(252, 247, 247);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-left: 40px ;
+    padding-top: 30px;
+}
+#ipdate{
+    font-size: 10px;
+    color: white;
+    padding-left: 45px;
+}
+#final{
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+}
+#fpara{
+    color: rgb(179, 164, 164);
+    font-size: 15px;
+    text-align: center;
+    padding-top: 20px;
+}
